@@ -1,7 +1,3 @@
-///////////////////////////////////////////////////////////
-// Stepper Motor skecth for use with the EasyDriver v4.2 //
-///////////////////////////////////////////////////////////
-
 // Dan Thompson 2010
 //
 // Use this code at your own risk.
@@ -87,15 +83,7 @@ void loop()
     delay(500);
   
 //  digitalWrite(SLEEP, LOW);                 // switch off the power to stepper
-//  Serial.print("SLEEPING..");
-//  delay(1000);
-//  Serial.print("z");
-//  delay(1000);
-//  Serial.print("z");
-//  delay(1000);
-//  Serial.print("z");
-//  delay(1000);
-//  Serial.println("");
+  Serial.print("SLEEPING..");
 //  digitalWrite(SLEEP, HIGH);
 //  Serial.println("AWAKE!!!");                // Switch on the power to stepper
 //  delay(1000);
